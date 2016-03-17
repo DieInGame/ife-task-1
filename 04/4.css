@@ -1,0 +1,25 @@
+.rect{
+    width: 400px;
+    height: 200px;
+    background-color: #ccc;
+    top: 0;right: 0;bottom: 0;left: 0;
+    margin: auto;
+    position: fixed;
+    overflow: hidden;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: #fc0;
+    border-radius: 50%;
+    position: relative;
+}
+#l{
+    top: -50px;
+    left: -50px;
+}
+#r{
+    right: -350px;
+    bottom: -50px;
+}
