@@ -46,10 +46,11 @@ body{
     height: 58px;
 }
 .container > div:nth-child(3){
-    height: -2px;
+    height: 0px;
+    padding-top: 18px;
 }
 
 .blue{
     border-color: #00f;
-    height: 198px;
+    height: 158px;
 }
