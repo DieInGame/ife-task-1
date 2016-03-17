@@ -1,6 +1,6 @@
 # IFE Task 01
 
-> 滑水冠军队
+> [滑水冠军队](http://ife.baidu.com/group/profile?groupId=190)
 
 | Task | By | Status |
 | ---- | ---- | ---- |
