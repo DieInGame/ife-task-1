@@ -1,0 +1,140 @@
+*{margin: 0;padding: 0;}
+.clearfix{overflow: auto;}
+.lf{float: left;}
+.rf{float: right;}
+.clearfix{overflow: auto;}
+body{
+    font-family: "微软雅黑";
+    font-size: 18px;
+    color:#000;
+}
+#nav a{
+    font-family: "微软雅黑";
+    font-size: 12px;
+    color:#fff;
+
+}
+#nav{
+    height: 50px;
+    background-color: #444;
+}
+#container{
+    overflow: auto;
+    background-color: #cccccc;
+    ;
+}
+#mainBox{
+    background-color: #ccc;
+    margin: 20px 430px 20px 20px;
+}
+#sideBox{
+    padding: 20px;
+    margin: 20px;
+    height: 400px;
+    width: 350px;
+    background-color: #fff;
+
+}
+#footer{
+   padding: 15px;
+    clear: both;
+    height: 40px;
+    background-color: #000;
+    text-align: center;
+}
+#nav li{
+    margin: 10px;
+
+}
+#nav>a:hover{
+    color: #999;
+}
+.article{
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+
+}
+#first_image{
+    float: left;
+}
+.article a{
+    font-family: "微软雅黑";
+    font-size: 18px;
+    color:#00f;
+}
+#footer a{
+    font-family: "微软雅黑";
+    font-size: 12px;
+    color:#fff;
+}
+#part3 div {
+    width:120px;
+    height: 120px;
+    border: solid 1px #000;
+    text-align:center;
+    vertical-align:middle;
+    margin: 20px;
+    padding-top: 10px;
+}
+
+
+table{
+    width: 100%;
+    border: solid 1px #444;
+}
+thead{
+    background-color: #444444;
+    color: #fff;
+}
+tbody tr:nth-child(-5n+5) {
+    background-color: #999;
+
+}
+/*侧栏样式 */
+
+.btn{
+
+    line-height:43px;
+    height:43px;
+    width:350px;
+    color:#ffffff;
+    background-color:#79bbff;
+    font-size:16px;
+    font-weight:bold;
+    border:1px solid #337bc4;
+    -webkit-border-top-left-radius:5px;
+    -moz-border-radius-topleft:5px;
+    border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius-topright:5px;
+    border-top-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -moz-border-radius-bottomleft:5px;
+    border-bottom-left-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    -moz-border-radius-bottomright:5px;
+    border-bottom-right-radius:5px;
+    -moz-box-shadow:3px 4px 0px 0px #1564ad;
+    -webkit-box-shadow:3px 4px 0px 0px #1564ad;
+    box-shadow:3px 4px 0px 0px #1564ad;
+    text-align:center;
+    display:inline-block;
+
+}
+.btn:hover {
+    background-color:#378de5;
+}
+#sideBox p{
+    font-size: 12px;
+    color: #999999;
+    margin: 5px auto 10px 140px;
+}
+textarea{
+    height: 100px;
+    width: 200px;
+}
+#sideBox{
+
+}
