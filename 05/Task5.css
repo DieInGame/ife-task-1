@@ -46,7 +46,6 @@ small{
     vertical-align: middle;
 }
 #container{
-    overflow: auto;
     min-width: 1000px;
 }
 #mainBox{
