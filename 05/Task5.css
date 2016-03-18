@@ -76,6 +76,9 @@ small{
     background-color: #fff;
 
 }
+.article p {
+  text-indent: 2em;
+}
 #first_image{
     float: left;
 }
