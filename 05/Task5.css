@@ -5,10 +5,12 @@
 .clearfix{overflow: auto;}
 
 body{
+    position: relative;
     font-family: "微软雅黑";
     font-size: 18px;
     color:#000;
     background: #ccc;
+    min-width: 1000px;
 }
 h1{
     font-size: 24px;
@@ -44,9 +46,6 @@ small{
     margin-left: 30px;
     height: 40px;
     vertical-align: middle;
-}
-#container{
-    min-width: 1000px;
 }
 #mainBox{
     background-color: #ccc;
