@@ -1,0 +1,192 @@
+*{margin: 0;padding: 0;}
+.clearfix{overflow: auto;}
+.lf{float: left;}
+.rf{float: right;}
+.clearfix{overflow: auto;}
+
+body{
+    font-family: "微软雅黑";
+    font-size: 18px;
+    color:#000;
+}
+h1{
+    font-size: 24px;
+    margin: 20px 0 20px 0;
+}
+h2{
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+small{
+    color: #666;
+
+}
+#nav a{
+    font-family: "微软雅黑";
+    font-size: 12px;
+    color:#fff;
+    text-decoration: none;
+}
+#nav a:hover{
+     color: #999999;
+ }
+
+
+
+#nav{
+    height: 60px;
+    background-color: #333;
+}
+#nav img{
+    margin-left: 30px;
+    height: 60px;
+    width: 130px;
+}
+#container{
+    overflow: auto;
+    background-color: #cccccc;
+    min-width: 1000px;
+}
+#mainBox{
+    background-color: #ccc;
+    margin: 20px 430px 20px 20px;
+}
+#sideBox{
+    padding: 20px;
+    margin: 20px;
+    height: 400px;
+    width: 350px;
+    background-color: #fff;
+
+}
+#footer{
+   padding: 15px;
+    clear: both;
+    height: 40px;
+    background-color: #000;
+    text-align: center;
+}
+#nav ul{
+    margin-right: 20px;
+}
+#nav li{
+    margin: 15px 10px 10px 10px;
+
+}
+
+.article{
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+
+}
+#first_image{
+    float: left;
+}
+.article a{
+    font-family: "微软雅黑";
+    font-size: 18px;
+    color:#00f;
+}
+#footer a{
+    font-family: "微软雅黑";
+    font-size: 12px;
+    color:#fff;
+}
+#part2 ul{
+    list-style: none;
+    margin-left: 30px;
+}
+#part3 div {
+    width:120px;
+    height: 120px;
+    border: solid 1px #999999;
+    text-align:center;
+    vertical-align:middle;
+    margin: 20px 20px 0 0 ;
+}
+
+
+
+#part4 ol{
+    margin-left: 45px;
+}
+#part4 table{
+    width: 100%;
+}
+thead{
+    background-color: #444444;
+    color: #fff;
+}
+tbody tr:nth-child(-5n+5) {
+    background-color: #999;
+
+}
+.article{
+    box-shadow:1px 1px 2px 1px #848484;
+}
+/*侧栏样式 */
+#sideBox{
+    position:absolute;
+    top:60px;
+    right:0px;
+    display:block;
+    background:white;
+    box-shadow:1px 2px 2px 1px #848484;
+    width:330px;
+    height: auto;
+}
+#sideBox h4{
+    border-left:3px solid #999;
+    padding: 10px 0 0 10px;
+    height: 40px;
+}
+
+#sideBox label{
+    display: inline-block;
+    text-align: right;
+    width: 30%;
+    margin-right: 1em;
+    margin-top: 0.3em;
+}
+textarea{
+    height: 100px;
+    width: 200px;
+}
+.btn:hover {
+    background-color:#3755ff;
+}
+.btn{
+    line-height:43px;
+    height:43px;
+    width:100%;
+    color:#ffffff;
+    background-color:#378de5;
+    font-size:16px;
+    font-weight:bold;
+    border-radius:10px;
+    text-align:center;
+    display:inline-block;
+
+}
+#sideBox div{
+    font-size: 14px;
+    margin:15px 0;
+}
+#sideBox div p{
+    margin-left:35%;
+    padding-left:15px;
+    font-size:12px;
+    color: #aaa
+}
+textarea{
+    font-size: 16px;
+   font-weight: bold;
+color: #222;
+}
+#geren{
+   position: relative;
+    top: -90px;
+}
