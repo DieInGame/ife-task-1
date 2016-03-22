@@ -1,0 +1,344 @@
+/*通用基础样式
+    字体都不太对*/
+*{margin: 0;padding: 0}
+body{
+    background-color:#fff;
+    min-width: 1280px;
+}
+.lf{
+    float: left;
+}
+.rf{
+    float: right;
+}
+
+/*nav 样式*/
+#nav{
+    height:54px ;
+
+}
+#nav ul{
+    margin-right: 40px;
+}
+#nav li{
+    margin-top: 15px;
+    list-style: none;
+    float: right;
+}
+#nav a{
+    font-size:15px ;
+    list-style: none;
+    color:rgb(124,124,124) ;
+    font-weight: bold;
+    text-decoration: none;
+    padding:15px 17px 20px 17px ;
+}
+#nav a:hover{
+    color: rgb(231,79, 77);
+    border-bottom: 3px solid rgb(231,79,77);
+}
+#img{
+    height: 30px;
+}
+#nav h1{
+    float: left;
+    margin: 15px auto 15px 50px;
+    font-size: 22px;
+    color:rgb(58,58,58) ;
+    font-weight: bold;
+    padding-left:38px;
+    background: url("images/nav-logo.png") left center no-repeat  ;
+    height: 30px;
+}
+#denlu a{
+    margin-left: 20px;
+    padding-left: 20px;
+    background: url("images/nav-user.png") left center no-repeat ;
+    padding-top: 20px;
+    color: rgb(231,79,77);
+}
+
+/*slogan 样式*/
+#slogan{
+    background: url("images/slogan-bg.png")  no-repeat;
+    background-size: 100%;
+    height: 690px;
+    min-width: 1280px;
+}
+#slogan h2{
+    color: #fff;
+    font-size: 60px;
+    font-family: Helvetica;/*什么字体！！！*/
+    padding-left: 10%;
+    padding-top:18% ;
+    padding-bottom:15px
+}
+#slogan p{
+    color: #fff;
+    font-size: 22px;
+    padding-left: 11%;
+    font-family: 宋体;
+}
+#slogan a {
+    background-color: rgb(231,79,77);
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    display: inline-block; /*内联变区块？*/
+    width: 330px;
+    height: 60px;
+    line-height: 57px;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 11%;
+    margin-top: 70px;
+}
+/*advancement 样式  还没有处理屏幕宽度大于1280 时 没有随之拉长*/
+#advancement{
+    height: 250px;
+    min-width: 1280px;
+}
+
+#advancement_con{
+
+}
+#advancement li{
+
+    display: inline-block;
+    list-style:none;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(118,118,118);
+    padding-bottom: 15px;
+
+}
+#advancement_1,#advancement_2,#advancement_3{
+
+    border-right: 2px solid #aaa;
+    padding-bottom:15px ;
+    width: 310px;
+}
+#advancement_4{
+
+    padding-bottom:15px ;
+    width: 310px;
+}
+
+#advancement img{
+
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+/*question 样式*/
+#question{
+    height: 360px;
+    background-color:rgb(237,237,237) ;
+
+}
+#question h2{
+    color: rgb(161,161,161);
+    font-size: 52px;
+    font-family: 宋体, serif;
+    margin-left: 17%;
+    width: 860px; /*这行字就不会被挤跑啦*/
+    padding-top: 226px;
+    background: url("images/question-logo.png") center no-repeat;
+
+}
+/*search样式*/
+#search{
+    height: 340px;
+    min-width: 1280px;
+    background: url("images/search-bg.jpg") no-repeat;
+    background-size: 100%;
+}
+#search h2{
+    color: #fff;
+    font-size: 22px;
+    width: 250px;
+    margin: 0 auto;/*左右居中*/
+    padding-top: 53px;
+}
+.line{
+     width: 30px;
+     height: 2px;
+     background-color: #ffffff;
+     margin: 0 auto;
+     margin-top: 8px;
+ }
+#search p{
+    font-size: 12px;
+    color: #fff;
+    width: 330px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-weight: bold;
+    padding-bottom: 55px;
+}
+#search span{
+    position: relative;
+    color: #999999;
+    padding-left: 10px;
+    top:9px;
+}
+#country{
+    margin-left: 125px;
+}
+.select{
+    width: 235px;
+    height: 35px;
+    background-color: #fff;
+    float: left;
+    margin-right: 30px;
+}
+#province{
+    border: 2px solid rgb(190,79,73);
+}
+.search_btn{
+    width: 235px;
+    height: 35px;
+    background-color: rgb(190,79,73);
+    float: left;
+    color: #ffffff;
+}
+.search_btn a {
+    position: relative;
+    top:9px;
+    left: 90px;
+    font-weight: bold;
+}
+#search img{
+    position: relative;
+    top:9px;
+    right: 9px;
+}
+#search li {
+    list-style: none;
+    padding: 6px 0 5px 30px;
+    color: #888;
+    font-size: 12px;
+
+}
+ul .first_city{
+    background: url("images/select-bg.png") left no-repeat;
+    background-color: rgb(190,79,73);
+    color: #fff;/*这个字体颜色要闹哪样*/
+}
+#search ul{
+    border: 1px solid rgb(190,79,73);
+    width: 236px;
+    height: 167px;
+    background-color: rgb(228,227,229);
+    position: relative;
+    top:19px;
+    right: 2px;
+}
+/*activity样式*/
+#activity{
+    height: 605px;
+    min-width: 1280px;
+}
+#activity div{
+    float: left;
+}
+#activity_1{
+    margin-left: 146px;
+    background: url("images/beijing.png") no-repeat;
+    padding-top: 50px;
+    border: 1px solid #aaa;
+    width: 227px;
+    height: 335px;
+}
+#activity_2{
+    background: url("images/shanghai.png") no-repeat;
+    padding-top: 50px;
+    border: 1px solid #aaa;
+    width: 227px;
+    height: 335px;
+}
+#activity_3{
+    background: url("images/shenzhen.png") no-repeat;
+    padding-top: 50px;
+    border: 1px solid #aaa;
+    width: 227px;
+    height: 335px;
+}
+#activity_4{
+    background: url("images/hongkong.png") no-repeat;
+    padding-top: 50px;
+    border: 1px solid #aaa;
+    width: 227px;
+    height: 335px;
+}
+/*newWorld*/
+#newWorld{
+    height: 565px;
+}
+/*loveLife*/
+#loveLife{
+    height: 520px;
+}
+/*volunteer*/
+#volunteer{
+    height: 750px;
+}
+/*contact*/
+#contact{
+    height:360px;
+    background-color:rgb(50,53,62) ;
+}
+#contact h2{
+    color: #fff;
+    font-size: 22px;
+    width: 250px;
+    padding-top: 87px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin: 0 auto;
+}
+#contact p{
+    font-size: 12px;
+    color: #fff;
+    width: 475px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5px;
+}
+form{
+    text-align: center;
+}
+.email{
+   width: 430px;
+    height: 42px;
+    margin: 20px 0 20px 0;
+}
+.btn{
+    width: 80px;
+    height: 46px;
+    margin-left: -8px;
+    background-color:rgb(111,114,120);
+    border: none;
+    color: #fff;
+    font-size: 18px;
+}
+.img{
+    text-align: center;
+}
+.img img{
+    margin-right: 20px;
+}
+/*footer*/
+#footer{
+    height:45px ;
+    background-color:rgb(48,48,58) ;
+    color: #fff;
+    font-size: 12px;
+    padding-left: 100px;
+    padding-top: 35px;
+}
+#footer a{
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    margin-right:30px ;
+}
