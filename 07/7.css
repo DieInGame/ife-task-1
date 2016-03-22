@@ -1,0 +1,166 @@
+body{
+    min-width: 1280px;
+    margin: 1px;
+    background-color: white;
+    font-family: monospace;
+}
+
+/*Navbar*/
+nav{
+    height: 18px;
+}
+nav li{
+    list-style: initial;
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 21px;
+    font-size: 14;
+    color: darkgrey;
+}
+nav li:hover{
+    color: rgb(238, 139, 138);
+    box-shadow: 0 5px rgb(238, 139, 138);
+}
+nav li:last-child{
+    color: rgb(238, 139, 138);
+}
+nav .left{
+    float: left;
+    margin-top: 10px;
+    margin-left: 13px;
+    font-size: 24;
+    color: rgb(58, 58, 58);
+    box-sizing: border-box;
+    
+}
+nav .right{
+    float: right;
+    
+    position: relative;
+    right: 50px;
+}
+
+/*Brand*/
+.brand{
+    background-color: pink;
+    height: 690px;
+    background-image: url(./bk1.jpg);
+    background-attachment: fixed;
+    color: white;
+    
+}
+.brand h1{
+    width: intrinsic;
+    position: relative;
+    top: 35%;
+    left: 10%;
+    font-size: 60;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+.brand p{
+    width: intrinsic;
+    position: relative;
+    left: 10%;
+    top: 30%;
+    font-size: 24;
+    font-weight: 100;
+}
+.brand input{
+    position: relative;
+    left: 10%;
+    top: 220px;
+    background-color: rgb(209, 79, 77);
+    border: none;
+    color: white;
+    padding: 10px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 34px;
+    font-weight: 200;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.brand input:hover{
+    background-color: white;
+    color: rgb(209, 79, 77);
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/*slogan & description*/
+.description{
+    height: 250px;
+}
+.description ul{
+    margin: 0px;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    position: relative;
+    height: 50%;
+    padding: 0px;
+}
+.description ul:last-child{
+    align-items: flex-start;
+    
+    top: 0%
+}
+
+.description li{
+    list-style-type: none;
+    text-align: center;
+   
+}
+.description p{
+    color: rgb(141,141,141);
+    text-align: center;
+    white-space: normal;
+    width: 120px;
+    margin: 0px;
+}
+.description li div{
+    position: absolute;
+    top: -50%;
+    width: 64px;
+    height: 64px;
+}
+
+.description img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    top: -50%;
+}
+.description img:hover{
+    box-shadow: 1px 1px 4px 1px pink;
+}
+.description .slide{
+    width: 1px;
+    height: 60px;
+    box-shadow: 1px 0px rgb(141,141,141);
+}
+
+.slogan{
+    height: 360px;
+    background-color: rgb(236,236,236);
+}
+.slogan h1{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    top: 150px;
+    font-size: 50;
+    color: rgb(161,161,161);
+
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.slogan div{
+    text-align: center;
+    position: relative;
+    top: 100px
+}
