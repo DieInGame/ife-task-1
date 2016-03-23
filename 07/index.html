@@ -41,11 +41,78 @@
             <div><img src="./icon.jpg" alt="方糖" width="81px"></div>
             <h1>关于生活，你知道些什么？</h1>
         </div>
-        <div class="find">Search INfo</div>
-        <div class="activity">Activity</div>
-        <div class="tags"></div>
+        <div class="find">
+            <h2>探索新世界</h2>
+            <hr>
+            <p>每个地方都有不同的新事物，去发现它们</p>
+            <div>
+                <!--<input type="text" placeholder="国家">
+                <input type="text" placeholder="省份">
+                <input type="text" placeholder="城市">-->
+                <select name="nation" id="nation" >
+                    <option value="china">中国</option>
+                    <option value="us">美国</option>
+                </select>
+                <select name="province" id="province" >
+                    <option value="pk">北京</option>
+                    <option value="sh">上海</option>
+                    
+                </select>
+                <select name="city" id="city" >
+                    <option value="">故乡</option>
+                    <option value="">远方</option>
+                </select>
+                <button>搜索</button>
+            </div>
+        </div>
+        <div class="activity">
+            <div class="container">
+                <div class="sub-container">
+                    <h1>北京后海</h1>
+                    <p>老北京，新玩法</p>
+                    <img src="" alt="">
+                </div>
+                <div class="sub-container">
+                    <h1>上海外滩</h1>
+                    <p>夜上海，不归城</p>
+                    <img src="" alt="">
+                </div>
+                <div class="sub-container">
+                    <h1>四川成都</h1>
+                    <p>巴适得板</p>
+                    <img src="" alt="">
+                    
+                </div>
+                <div class="sub-container">
+                    <h1>杭州西湖</h1>
+                    <p>三潭映哪家月</p>
+                    <img src="" alt="">
+                </div>
+                
+            </div>
+        </div>
+        <div class="times"></div>
         <div class="volunteer"></div>
-        <div class="contact"></div>
-        <footer>@diving king</footer>
+        <div class="contact">
+            <h1>联系我们</h1>
+            <p>为了更便捷地获取我们的最新资讯，您可以通过邮件快速订阅我们的动态。<br/>也可以通过以下人和方式关注我们。</p>
+            <form action="" id="submit-form">
+                <input type="text" autofocus name="email" id="submit-email" class="email" title="submit" 
+                placeholder="留下您的邮箱以订阅:user@temp.com" autocomplete="on">
+                <button class="btn-email" type="submit">
+                    <div>提交</div>
+                </button>
+            </form>
+            <div>
+                <a href=""><img src="./i7.png" alt=""></a>
+                <a href=""><img src="./i8.png" alt=""></a>
+                <a href=""><img src="./i9.png" alt=""></a>
+                <a href=""><img src="./i10.png" alt=""></a>
+            </div>
+        </div>
+        <footer>
+            <div>@diving king</div>
+            <div><a href="#0" id="backtop">BACK TO TOP</a></div>
+        </footer>
     </body>
 </html>

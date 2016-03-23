@@ -48,6 +48,7 @@ nav .right{
     height: 690px;
     background-image: url(./bk1.jpg);
     background-attachment: fixed;
+    
     color: white;
     
 }
@@ -163,4 +164,216 @@ nav .right{
     text-align: center;
     position: relative;
     top: 100px
+}
+/*Find*/
+.find {
+    height: 340px;
+    background-color: pink;
+    background-image: url(./bk2.jpg);
+    /*background-attachment: fixed;
+    background-position-x: -500px;
+    background-position-y: -300px;*/
+    background-attachment: scroll;
+    background-position-x: -500px;
+    background-position-y: -700px;
+    background-size: 2670px 1545px;
+    text-align: center;
+    color: white;
+}
+.find h2{
+    margin: 0px;
+    padding-top: 60px;
+}
+.find hr{
+    width: 31px;
+    height: 4px;
+    background-color: white;
+    border: none
+}
+
+.find select{
+    height: 35px;
+    width: 240px;
+    padding: 10px;
+    border-radius: 3px 3px 3px 3px;
+    border: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-progress-appearance: none;
+    background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center white;
+}
+.find>div{
+    margin-top: 50px;
+}
+.find button{
+    width: 240px;
+    height: 35px;
+    vertical-align: bottom;
+    background-color: rgb(209, 79, 77);
+    border: none;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 25px;
+    padding-left: 25px;
+    transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+.find button:hover{
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+    background-color: white;
+    color: rgb(209, 79, 77);
+}
+.find button:active{
+    opacity: 0.8;
+    background-color: rgb(209, 79, 77);
+    color: white;
+}
+
+/*Activity*/
+
+.activity{
+    height: 600px;
+    background-color: rgb(243,243,243)；
+}
+.activity .container{
+    padding: 80px 140px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    height: 100%;
+}
+.activity .sub-container{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+}
+.sub-container img{
+    
+    height: 80%;
+    width: 216px;
+    order: -1;
+    box-shadow: 0px 0px 0px 10px white inset;
+    background-image: url(./bk3.jpg);
+    background-attachment: fixed;
+}
+.sub-container:hover img{
+    order: 0;
+}
+.sub-container h1{
+    margin: 5px;
+    font-weight: 100;
+    font-size: 15px;
+}
+.sub-container:hover h1{
+    font-size: 22px;
+    letter-spacing: 25px;
+    margin: 0px;
+    padding-left: 25px;
+}
+.sub-container p{
+    margin: 0px;
+    height: 5%;
+    color: rgb(161,161,161);
+}
+
+/*Times*/
+.times{
+    height: 1000px;
+    background-color: orangered;
+}
+/*volunteer*/
+.volunteer{
+    height: 750px;
+    background-color: darkslateblue;
+}
+
+/*contact*/
+.contact{
+    height: 360px;
+    background-color: rgb(50, 54, 62);
+    text-align: center;
+}
+.contact h1{
+    color: rgb(235, 235, 235);
+    padding-top: 100;
+    margin: 0px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.contact p{
+    color: white;
+    font-weight: 100;
+    font-family: serif;
+    font-size: 13px;
+    margin-top: 3px;
+}
+.contact form{
+    padding: 10px;
+}
+.contact .email{
+    padding: 13px 13px;
+    border: 0;
+    border-radius: 1px 0 0 1px;
+    width: 400px;
+    font-size: 13px;
+    margin: 0px;
+}
+.contact .email:focus{
+    outline: 0px;
+}
+.contact .btn-email{
+    margin-left: -10px;
+    width:  80px;
+    height: 42px;
+    vertical-align: top;
+    background-color: white;
+    border: none;
+    border-radius: 0px 1px 1px 0px;
+}
+.email:focus ~ .btn-email{
+    background-color: rgb(111,114,120);
+}
+.btn-email div{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 10px;
+    padding-left: 10px;
+}
+.contact img{
+    width: 50px;
+    height: 50px;
+    margin:  10px;
+}
+.contact a:hover>img{
+    box-shadow: 1px 1px 3px white;
+}
+
+/*footer*/
+footer{
+    height: 60px;
+    background-color: rgb(47, 48, 56);
+    vertical-align: middle;
+    color: white;
+}
+footer :first-child{
+    float: left;
+    margin-top: 25px; 
+    margin-left: 25px;
+}
+footer :last-child{
+    float: right; 
+    margin-right: 25px;
+    font-size: 12px;
+}
+a:link,a:visited{
+    color: white;
+    text-decoration: blink;
+}
+a:hover,a:active{
+    opacity: 0.9;
 }
