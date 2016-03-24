@@ -11,7 +11,7 @@
 | 05 | [@zhe13](https://github.com/zhe13) [@Fiooona](https://github.com/Fiooona) [@satansk](https://github.com/satansk) | Reivew 完毕 |
 | 06 | [@satansk](https://github.com/satansk) |  |
 | 07 | [@zhe13](https://github.com/zhe13) [@Fiooona](https://github.com/Fiooona) [@theJian](https://github.com/theJian) [@satansk](https://github.com/satansk) |  |
-| 08 | [@zhe13](https://github.com/zhe13) [@Fiooona](https://github.com/Fiooona) [@theJian](https://github.com/theJian) [@satansk](https://github.com/satansk) | 等待review |
+| 08 | [@zhe13](https://github.com/zhe13) [@Fiooona](https://github.com/Fiooona) [@theJian](https://github.com/theJian) [@satansk](https://github.com/satansk) | 等待提交 |
 | 09 | [@zhe13](https://github.com/zhe13) [@Fiooona](https://github.com/Fiooona) [@theJian](https://github.com/theJian) [@satansk](https://github.com/satansk) | 等待Review |
 | 10 | [@zhe13](https://github.com/zhe13) [@theJian](https://github.com/theJian) | 等待提交 |
 | 11 | [@zhe13](https://github.com/zhe13) [@satansk](https://github.com/satansk) |  |
