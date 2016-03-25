@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>12-03</title>
+  <style>
+    @keyframes slidy {
+      0% { left: 0% }
+      30% { left: 0% }
+      33% { left: -100% }
+      63% { left: -100% }
+      66% { left: -200% }
+      96% { left: -200% }
+      100% { left: 0% }
+    }
+    
+    #slider {
+      position: relative;
+      overflow: hidden;
+      width: 320px;
+      height: 200px;
+    }
+    
+    #slider figure {
+      margin: 0;
+      position: relative;
+      width: 300%;
+      height: 100%;
+      animation: 10s slidy infinite;
+    }
+    
+    #slider .slider-pic {
+      float: left;
+      width: 320px;
+      height: 200px;
+    }
+    
+    #slider .slider-pic:nth-child(1) {
+      background: #FF0000;
+    }
+    
+    #slider .slider-pic:nth-child(2) {
+      background: #00FF00;
+    }
+    
+    #slider .slider-pic:nth-child(3) {
+      background: #0000FF;
+    }
+    
+    #slider .slider-button {
+      display: block;
+      position: absolute;
+      height: 20px;
+      width: 20px;
+      right: 0;
+      bottom: 0;
+      background: rgba(255, 255, 255, 0.5);
+      line-height: 20px;
+      text-align: center;
+      text-decoration: none;
+      z-index: 5;
+      cursor: pointer;
+    }
+    
+    #slider .slider-button:focus {
+      background: rgba(255, 255, 255, 0.8);
+    }
+    
+    #slider .slider-button.p1 {
+      right: 44px;
+    }
+    
+    #slider .slider-button.p2 {
+      right: 22px;
+    }
+    
+    #slider .slider-button:focus ~ figure {
+      animation: none !important;
+      transition: left .2s;
+    }
+    
+    #slider .slider-button.p1:focus ~ figure {
+      left: 0%;
+    }
+    
+    #slider .slider-button.p2:focus ~ figure {
+      left: -100%;
+    }
+    
+    #slider .slider-button.p3:focus ~ figure {
+      left: -200%;
+    }
+    
+  </style>
+</head>
+<body>
+  <div id="slider">
+    <a class="slider-button p1" href="#">1</a>
+    <a class="slider-button p2" href="#">2</a>
+    <a class="slider-button p3" href="#">3</a>
+    <figure>
+      <div class="slider-pic"></div>
+      <div class="slider-pic"></div>
+      <div class="slider-pic"></div>
+    </figure>
+  </div>
+</body>
+</html>

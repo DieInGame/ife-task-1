@@ -1,0 +1,153 @@
+*{  margin: 0;  padding: 0;  }
+.lf{float: left;}
+.rf{float: right;}
+ul,li{  list-style: none;}
+/*nav*/
+.nav{
+    height: 56px;
+    background-color:rgb(33,137,191) ;
+    position: relative;
+    min-width: 680px;
+}
+.nav img{
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    margin:-18px 0 0 -18px;
+}
+.nav_right{
+    display: inline;
+    position: absolute;
+    right: 8%;
+    top: 50%;
+    margin: -10px 0 0 0;
+}
+.logIn{
+    display: inline;
+    padding: 8px 40px;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    background-color: #fff;
+}
+.logIn img{
+    padding: 10px 0 0 20px;
+}
+.logIn input{
+    width: 200px;
+    border: none;
+    outline: none;
+    height: 20px;
+}
+.nav  span{
+    padding-left: 20px;
+    background: url("images/logIn.png") left no-repeat;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.nav span:hover{
+    color: #3755ff;
+}
+
+/*content*/
+.content{
+    min-width: 1280px;
+}
+
+/*content->side*/
+.side{
+    width: 20%;
+    height: 1200px;
+    background-color: rgb(42,46,61);
+}
+.side_top_img{
+    margin:20px 30px 70px 30px;
+}
+.img_border{
+    border: 2px solid #aaa;
+    width:68px;
+    height: 68px;
+    border-radius: 50%;
+}
+.side_top_img img{
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    top:4px;
+    left: 4px;
+
+}
+.side_top_img span{
+    color: #fff;
+    font-size: 22px;
+    position: relative;
+    top:20px;
+    left: 20px;
+}
+.side_top_txt{
+    height: 70px;
+}
+.side_top_txt p{
+    color: rgb(100,135,166);
+    font-size: 12px;
+    font-weight: 600;
+}
+.side_top_txt p:hover{
+    color: #fff;
+}
+.side_top_txt_1{
+    border-right: 2px solid rgb(100,135,166);
+    padding:5px 40px 0 50px;
+}
+.side_top_txt_2{
+    padding:5px 0 5px 40px;
+}
+.side_bottom a{
+    color:rgb(100,135,166);
+    font-size: 12px;
+}
+.side_bottom a:hover{
+    color:#fff;
+}
+.side_bottom ul li{
+    list-style: none;
+    height: 50px;
+}
+.side_bottom div {
+    width: 100%;
+}
+.side_bottom div .aa{
+    display:block;
+    text-decoration:none;
+    padding: 15px 0 15px 16%;
+}
+.side_bottom div ul {
+    display:none;
+    list-style:none;
+}
+.aa:hover{
+    background:rgb(56,61,78);
+}
+.baobiao table{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.baobiao span{
+    color: #fff;
+}
+.wendang{
+    margin-left: 40px;
+}
+.side_bottom  div:hover ul {
+    display:table;
+}
+.side_bottom img{
+    margin-right: 15px;
+}
+/*main_content*/
+.main_content{
+    width: 80%;
+    height: 1200px;
+    background-color: rgb(233,237,236);
+}
