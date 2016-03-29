@@ -158,6 +158,16 @@ ul,li{  list-style: none;}
     background-color: rgb(233,237,236);
 }
 
+ .main_content .other .stitle{
+        background-color: whitesmoke;
+         border-radius: 7% 7% 0% 0%;
+         /*border: solid 1px rgb(141, 141, 141);*/
+        padding: 5px;
+        padding-left: 15px;
+        color: rgb(141, 141, 141);
+        font-size: 13px;
+    }
+
 /*title*/
 .title{
     background-color: white;
@@ -210,12 +220,7 @@ ul,li{  list-style: none;}
         float: left;
         
     }
-    .calendar .title{
-        background-color: whitesmoke;
-        /* border-radius: 3% 3% 3% 3%; */
-        padding: 5px;
-        padding-left: 15px;
-    }
+   
     .calendar .input{
         padding: 5px 15px;
     }
@@ -301,4 +306,61 @@ ul,li{  list-style: none;}
         margin-left: 420px;
 }
 
+.rank table{
+    border: solid 1px #aaa;
+    border-collapse: collapse;
+    width: 80%;
+    height: 84%;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+.rank td{
+    border: solid 1px #aaa;
+    text-align: center;
+    font-size: 12px;
+}
+.rank td hr{
+    height: 5px;
+    background: rgb(213,214,211);
+    border: none;
+    width: 160px;
+    margin-top: 5px;
+    box-shadow: 40px 0px 0px lightblue inset;
+}
+.rank tr:nth-last-child(2) hr{box-shadow: 50px 0px 0px lightblue inset;}
+.rank tr:nth-last-child(3) hr{box-shadow: 55px 0px 0px lightblue inset;}
+.rank tr:nth-last-child(4) hr{box-shadow: 64px 0px 0px lightblue inset;}
+.rank tr:nth-last-child(5) hr{box-shadow: 69px 0px 0px lightblue inset;}
+.rank tr:nth-last-child(6) hr{box-shadow: 73px 0px 0px lightblue inset;}
+.rank tr:nth-last-child(7) hr{box-shadow: 75px 0px 0px lightblue inset;}
+.rank tr:nth-last-child(8) hr{box-shadow: 81px 0px 0px lightsalmon inset;}
+.rank tr:nth-last-child(9) hr{box-shadow: 109px 0px 0px orange inset;}
+.rank tr:nth-last-child(10) hr{box-shadow: 132px 0px 0px orangered inset;}
+.rank td p{
+    padding: 0px 20px;
+    float: left;
+}
+.rank tr:hover {
+    background-color:  whitesmoke;
+    cursor: pointer;
+    
+}
+.rank tr td:nth-child(1){
+    width: 70px;
+}
+.rank tr td:nth-child(2){
+    width: 90px;
+}
+.rank tr th:nth-child(3){
+    text-align: left;
+    padding-left: 20px;
+}
+.rank th{
+    border: solid 1px #aaa;
+    font-size: 13px;
+    font-family: Arial;
+    /* padding-left: 12%; */
+
+    box-sizing: border-box;
+}
 /*ran-end*/
