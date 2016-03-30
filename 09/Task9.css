@@ -347,7 +347,7 @@ font-family: Arial;}
 .container > div:nth-child(4) .cube{background-color: rgb(226,205,71) ;}
 /*total end*/
 
-.project .lt{
+.project .project_1{
         box-sizing: border-box;
         border: solid 1px rgb(223,215,231);
         border-radius: 2% 2% 2% 2%;
@@ -357,9 +357,10 @@ font-family: Arial;}
         margin-left: 60px;
         float: left;
         margin-bottom: 10px;
+        position: relative;
 }
 
-.project .rt{
+.project .project_2{
         box-sizing: border-box;
         border: solid 1px rgb(223,215,231);
         border-radius: 2% 2% 2% 2%;
@@ -368,6 +369,58 @@ font-family: Arial;}
         background-color: white;
         margin-left: 610px;
          margin-bottom: 10px;
+}
+.project h3{
+    height: 40px;
+    background-color: rgb(245,245,245);
+    border-bottom: 1px solid #ddd;
+    color: #767676;
+    font-size: 12px;
+    line-height: 40px;
+    padding-left: 20px;
+}
+.project_1 ul{
+    position: absolute;
+    bottom: 226px;
+}
+.project_1 li{
+    float: left;
+    background-color: #eee;
+    margin: 10px 5px 0 15px;
+    padding: 4px 15px;
+    border: solid 1px transparent;
+    border-radius: 2% 2% 2% 2%;
+}
+
+.project table{
+    margin: 15px 0 0 35px;
+    border: solid 1px #ddd;
+    padding: 30px;
+    border-collapse:collapse;
+
+}
+.project table,.project tr,.project td
+{
+    border: 1px solid #ddd;
+}
+.project table td{
+    padding: 7px 15px;
+    color: #999;
+    font-size: 15px;
+}
+.project .active{
+    outline: 1px solid #ddd;
+    background-color: #fff;
+}
+.project_1 .inner{
+    position: absolute;
+    top:82px;
+    left: 20px;
+    width: 500px;
+    height: 225px;
+    border: 1px solid #ddd;
+
+
 }
 /*Calendar*/
     .calendar{
